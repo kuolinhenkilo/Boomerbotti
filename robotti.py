@@ -9,11 +9,26 @@ import sys
 import time
 
 
-def klikkibotti(viesti: str):
-
-    print("Boomer-botti alkaa")
+def klikkibotti(viesti: str = None):
+    print("Boomerbotti alkaa")
     print(viesti)
-    breakpoint()
+
+    if viesti == None:
+        lista = [
+        "Pöyristys", 
+        "Kauhistus", 
+        "Ihastus", 
+        "Harmistus", 
+        "Hätäännys", 
+        "Tuhahdus", 
+        "Kohahdus", 
+    ]
+        rnd = random.randint(0, 6)
+        tila = lista[rnd]
+
+    else:
+        tila = str(viesti)
+
     # Selaimen avaaminen
 
     firefox = pyautogui.locateCenterOnScreen(
@@ -22,7 +37,6 @@ def klikkibotti(viesti: str):
         grayscale=True
     )
     pyautogui.click(firefox.x/2, firefox.y/2)
-
 
     hätäjarru = 0
     while True:
@@ -69,20 +83,7 @@ def klikkibotti(viesti: str):
     )
     pyautogui.click(mitamietit.x/2, mitamietit.y/2)
     time.sleep(2)
-
-    lista = [
-        "Pöyristys", 
-        "Kauhistus", 
-        "Ihastus", 
-        "Harmistus", 
-        "Hätäännys", 
-        "Tuhahdus", 
-        "Kohahdus", 
-    ]
-
-    rnd = random.randint(0, 6)
-
-    pyautogui.write(lista[rnd], interval=0.2)
+    pyautogui.write(tila, interval=0.2)
     pyautogui.click(718, 634)
     time.sleep(4)
 
@@ -92,8 +93,7 @@ def klikkibotti(viesti: str):
     time.sleep(1)
     pyautogui.click(1071, 548)
 
-
-    print("Boomer-botti päättyy")
+    print("Boomerbotti päättyy")
 
 
 if __name__ == "__main__":
