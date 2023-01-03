@@ -1,10 +1,21 @@
 # Boomerbotti
 
-Klikkibotti:
+## Sisältö
 
-  1. Avaa Mozilla Firefoxin
-  2. Klikkaa etusivun Facebook-pikanäppäintä
-  3. Kirjautuu sisään
-  4. Siirtyy omalle seinälle
-  5. Kirjoittaa ja julkaisee tilapäivityksen
-  6. Kirjautuu ulos
+1. [Kuvaus](kuvaus)
+2. [Teknologiat](teknologiat)
+
+## Kuvaus
+
+Tämä on sekä ensimmäinen projektini Helsingin yliopiston oppimateriaalin ulkopuolella, että ensimmäinen klikkibottini. 
+
+Projektin tavoitteena oli
+  - tehdä yliopiston oppimateriaalin harjoitepulmien sijaan oikea ohjelma tutulla ohjelmointikielellä
+  - opetella hyödyntämään rpa- ja kuvantunnistuskirjastoa
+  - miettiä ja opetella koodin uudelleenkäytettävyyttä
+  - harjoitella terminaalin käyttöä
+  
+## Teknologiat
+
+- Python
+- Pyautogui
