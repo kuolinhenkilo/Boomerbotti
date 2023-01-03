@@ -2,9 +2,9 @@
 
 ## Sisältö
 
-1. [Esittely](esittely)
-2. [Teknologiat](teknologiat)
-3. [Kuvaus](kuvaus)
+1. [Esittely](#esittely)
+2. [Teknologiat](#teknologiat)
+3. [Kuvaus](#kuvaus)
 
 ## Esittely
 
