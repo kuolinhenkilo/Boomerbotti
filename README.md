@@ -12,7 +12,7 @@ Tämä on sekä ensimmäinen projektini Helsingin yliopiston oppimateriaalin ulk
 
 Projektin tavoitteena oli
   - tehdä yliopiston oppimateriaalin harjoitepulmien sijaan oikea ohjelma tutulla ohjelmointikielellä
-  - opetella hyödyntämään rpa- ja kuvantunnistuskirjastoa
+  - opetella hyödyntämään kuvantunnistuskirjastoa
   - miettiä ja opetella koodin uudelleenkäytettävyyttä
   - harjoitella terminaalin käyttöä
   
