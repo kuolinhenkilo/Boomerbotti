@@ -1,7 +1,6 @@
+
 """Autoklikkeri, joka kirjautuu ja kirjoittaa tilapäivityksen Facebook-profiiliin"""
 
-
-# https://pyautogui.readthedocs.io/en/latest/quickstart.html
 
 import pyautogui
 import random
